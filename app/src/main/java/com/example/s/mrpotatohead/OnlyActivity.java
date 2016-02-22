@@ -7,20 +7,22 @@ import android.widget.CheckBox;
 import android.widget.ImageView;
 
 public class OnlyActivity extends AppCompatActivity {
-    ImageView arms = (ImageView) findViewById(R.id.arms);
-    ImageView shoes = (ImageView) findViewById(R.id.shoes);
-    ImageView hat = (ImageView) findViewById(R.id.hat);
-    ImageView glasses = (ImageView) findViewById(R.id.glasses);
-    ImageView mustache = (ImageView) findViewById(R.id.mustache);
-    ImageView nose = (ImageView) findViewById(R.id.nose);
-    ImageView mouth = (ImageView) findViewById(R.id.mouth);
-    ImageView eyebrows = (ImageView) findViewById(R.id.eyebrows);
-    ImageView eyes = (ImageView) findViewById(R.id.eyes);
+    ImageView arms, shoes, hat, glasses, mustache, nose, mouth, eyebrows, eyes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_only);
+
+        arms = (ImageView) findViewById(R.id.arms);
+        shoes = (ImageView) findViewById(R.id.shoes);
+        hat = (ImageView) findViewById(R.id.hat);
+        glasses = (ImageView) findViewById(R.id.glasses);
+        mustache = (ImageView) findViewById(R.id.mustache);
+        nose = (ImageView) findViewById(R.id.nose);
+        mouth = (ImageView) findViewById(R.id.mouth);
+        eyebrows = (ImageView) findViewById(R.id.eyebrows);
+        eyes = (ImageView) findViewById(R.id.eyes);
     }
 
     public void CheckClicked(View view) {
